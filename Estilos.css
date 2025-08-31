@@ -1,0 +1,588 @@
+header {
+    background-color: black;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    display: grid;
+    grid-template-rows: auto auto; 
+    justify-items: center; 
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px;
+}
+
+.h2-header{  
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#pergunta-atletismo{
+    margin-left: 20px;
+    font-size: 31px;
+    text-shadow: 1.5px 1.5px 2px gray;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(6, 6, 118);
+}
+#Explicaçao-atletismo{
+    background-color: rgb(252, 252, 252);
+    margin-top: 30px;
+}
+.titulo-padrao{
+    margin-left: 20px;
+    font-size: 28px;
+    text-shadow: 1px 1px 2px gray;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(2, 2, 75);
+}
+.frase-padrao{
+    flex: 1;
+    margin: 0 auto;
+    font-size: 19px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+#Atletismo-so-correr-explicaçao{
+    background-color: rgb(233, 226, 226);
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+     padding: 20px;
+}
+#historia-atletismo{
+    margin-top: 50px;
+    text-align: center;
+}
+#modalidades {
+    width: 480px; 
+    height: 290px;
+    border-radius: 10px;
+    flex-shrink: 0; 
+}
+#saude{
+    background: linear-gradient( rgb(160, 226, 197),white);
+    padding: 10px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#gif-saude{
+    width: 100px;
+    padding-right: 50px;
+}
+#flex-saude{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-left: 30px;
+}
+footer {
+    background-color: black;
+    padding-bottom: 20px;
+    padding-top: 1px;
+    display: grid;
+    grid-template-rows: auto auto auto; 
+    gap: 10px;
+}
+.frase-rodape{
+    padding-left: 40px;
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+.titulo-rodape{
+    padding-left: 30px;;
+    color: white;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    background-color: rgb(16, 15, 15);
+}
+.REFERENCIA{
+    background-color: rgb(48, 48, 48);
+    border: solid rgb(78, 75, 75) 0.1px;
+    margin: 0 auto;
+    width: 1400px;
+    height: 50px;
+    border-collapse: collapse;
+}
+.celulas-rodape{
+    border-bottom: solid rgb(78, 75, 75) 0.1px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(16, 15, 15);
+}
+.REFERENCIA td {
+    border-left: 1px solid rgb(78, 75, 75);
+    border-right: 1px solid rgb(78, 75, 75);
+}
+.referencia{
+    background-color: rgb(16, 15, 15);
+    border-bottom: solid rgb(78, 75, 75) 0.1px;
+    border-bottom: solid rgb(78, 75, 75) 0.1px; 
+    padding: 4px;
+    color: rgb(93, 128, 158);
+}
+.titulo-padrao-p2{
+    font-size: 38px;
+    text-shadow: 2px 2px 1px rgb(103, 101, 101);
+    font-family: "Quantico", sans-serif;
+    font-style: normal;
+}
+#cem-titulo-animacao{
+    text-align: center;
+    color: rgb(2, 2, 131);
+    position: relative;
+    background: linear-gradient(white, rgb(171, 221, 246));
+    border-bottom: 25px solid rgb(60, 129, 226);
+    margin-top: 50px;
+}
+#pessoa{
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    animation: pessoa-correndo 9.5s infinite linear;
+}
+@keyframes pessoa-correndo{
+     from {
+        right: 100%;
+    }
+    to {
+        right: -2%;
+    }
+}
+#explicaçao-100m{
+    margin-top: 30px;
+    text-align: center;
+    
+}
+#componentes-100m{
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+}
+#explicaçao2-100m{ 
+    background-color:  rgb(233, 226, 226);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: flex-start;
+}
+#record-100m{
+    margin-left: 100px;
+    border-collapse: collapse;
+    border: 2px solid rgb(227, 222, 222); 
+    background-color: rgb(223, 219, 219);
+    border-radius: 10px;
+}
+#record-100m th,
+#record-100m td{
+     border: 1px solid rgb(205, 204, 204);
+    padding: 6px;
+    text-align: center;
+}
+.th-100m{
+    color: rgb(7, 7, 111);
+}
+#corrida-400m-principal{
+    padding-left: 30px;
+    padding-top: 30px;
+    background-color: rgb(233, 251, 249);
+}
+#habilidades-400m{
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+#article-400m{
+    margin-top: 30px;
+   background-color: rgb(233, 251, 249);   
+   padding-bottom: 20px; 
+}
+#record-400m{
+    border-collapse: collapse;
+    padding: 15px;
+    background-color: rgb(240, 252, 252);
+    margin-left: 35px;
+}
+#record-400m th,
+#record-400m td{
+    border: 1px solid rgb(95, 243, 233);
+    text-align: center;
+    padding: 8px;
+}
+.th-400m{
+     color: rgb(22, 4, 84);
+}
+#salto-distancia{
+    margin-top: 100px;
+}
+#titulo-salto{
+    text-align: center;
+    background-color: rgb(234, 231, 231);
+}
+#gif-salto-distancia{
+    width: 700px;
+}
+#explicaçao{
+    background: linear-gradient(rgb(230, 228, 228), white);
+    padding: 20px;
+    border-radius: 10px;
+}
+#explicaçao-gif-salto-distancia{
+    display: grid;
+    grid-auto-flow: column;      
+    justify-content: space-around; 
+    align-items: center;        
+}
+#table-salto-distancia{
+    margin: 0 auto;
+    height: 30px;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+#table-salto-distancia th,
+#table-salto-distancia td{
+    border: 1px solid rgb(176, 173, 173);
+    padding: 6px;
+    text-align: center;
+    background-color: rgb(230, 228, 228);
+}
+#article-Lançamento{
+    margin-top: 150px;
+    background-color: rgb(250, 249, 249);
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 5px; 
+    padding-bottom: 1px;
+    margin-bottom: 50px;
+}
+
+#imagens-lançamento-arremesso {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr; /* esquerda e direita iguais, meio automático */
+    gap: 20px;
+    justify-items: center;
+    align-items: start;
+    padding-top: 40px;
+}
+
+#imagem-lançamento, #gif-lançamento {
+    width: 200px; /* imagens menores */
+    height: auto;
+}
+
+#imagem-arremesso {
+    width: 900px; /* imagem do meio maior */
+    height: auto;
+}
+#tabela-lançamento-arremesso{
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    text-align: center;
+    width: 30px;
+}
+#tabela-lançamento-arremesso th,
+#tabela-lançamento-arremesso td{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:  rgb(243, 241, 241);
+    border: 1px solid rgb(156, 156, 156);
+}
+#convite-para-Jogos{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+
+
+#barreira-e-maratona{
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: rgb(249, 245, 245);
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+#maratona{
+    margin-top: 20px;
+}
+#explicaçao-maratona{
+    margin-left: 30px;
+}
+
+
+
+#explicaçao-jogo{
+    background-color: rgb(230, 231, 247);
+     text-align: center;
+     margin-top: 30px;
+}
+#titulo-principal-jogo{
+    font-family: "Quantico", sans-serif;
+    font-size: 38px;
+    color: gold;
+    text-shadow: 1px 1px 10px black;
+}
+.objetivo-instruçoes{
+    font-family: "Quantico", sans-serif;
+    font-size: 25px;
+    color:  blue;
+    text-shadow: 1px 1px 1px black;
+}
+.listas{
+    margin-top: 30px;
+    background-color: rgb(223, 225, 247);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20;
+    box-sizing: border-box;
+}
+.principal{
+    width: 80%;
+    height: 500px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 50px solid #3cd641;
+    margin: 0 auto; 
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient( rgb(120, 120, 249), rgb(175, 220, 254));
+}
+.barreiras{
+    position: absolute;
+    bottom: -30px;
+    width: 180px;
+    animation: barreiras 4s infinite linear;
+}
+@keyframes barreiras {
+    from {
+        right: -150px;
+    }
+    to {
+        right: 100%;
+    }
+}
+#passaro{
+    position: absolute;
+    bottom: 350px;
+    width: 200px;
+    animation: voo 25s infinite linear;
+}
+@keyframes voo{ 
+    from{
+        right: -500px;
+    }
+    to{
+        right: 200%;
+    }
+}
+#arvore{
+    position: absolute;
+    bottom: -20px;
+    width: 450px;
+    animation: arvore-animaçao 100s infinite linear;
+}
+
+@keyframes arvore-animaçao{ 
+    from{
+        right: -10000px;
+    }
+    to{
+        right: 2000%;
+    }
+}
+.pessoa{
+    position: absolute;
+    width: 110px;
+    bottom: 0;
+}
+.pulando{
+     animation: pulo-pessoa 800ms ease-out;
+}
+@keyframes pulo-pessoa {
+    0% {
+        bottom: 0;
+    }
+    50% {
+        bottom: 250px;
+    }
+    65%{
+        bottom:  250px;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+#timer {
+  position: absolute;  
+  font-family:"Quantico", sans-serif;
+  font-size: 20px;      
+  font-weight: bold;   
+  color: black;        
+  background: rgba(93, 101, 255, 0.7); 
+  padding: 10px;   
+  border-radius: 10px;  
+  left: 47%;
+}
+#cone{
+    position: absolute;
+    bottom: -30px;
+    width: 180px;
+}
+#rodape-sala-jogos{
+    background-color: black;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+.td-rodpe-sala-jogos{
+     background-color: rgb(16, 15, 15);
+     color: white;
+}
+.menu{
+    background-color: black;
+    font-family: "Nunito", sans-serif;
+}
+.links-padrao{
+    padding: 20px;
+    display: grid;
+    grid-auto-flow: column;  
+    justify-content: center; 
+    align-items: center;     
+    gap: 30px;            
+}
+.link-da-pagina{
+     padding: 20px;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 30px;
+}
+.link-da-pagina a:link{
+    color: white;
+}
+.link-da-pagina a:visited{
+    color: rgb(0, 238, 255);
+}
+.link-da-pagina a:hover{
+     color: rgb(239, 238, 238);
+}
+.link-da-pagina a:active{
+    color: yellow;
+}
+
+.links-padrao a:link,
+.links-body a:link{
+    color: gold;
+}.links-padrao a:visited{
+    color: rgb(85, 105, 238);
+}
+.links-padrao a:hover,
+.links-body a:hover{
+     color: rgb(239, 238, 238);
+}
+.links-padrao a:active,
+.links-body a:active{
+    color: yellow;
+}
+
+.links-body a:visited{
+    color: rgb(85, 105, 238);
+}
+
+
+.links-padrao a,
+.links-padrao a:link,
+.links-padrao a:visited,
+.links-padrao a:active {
+    text-decoration: none;
+}
+
+.links-padrao a,
+.links-body a,
+.link-da-pagina a {
+    text-decoration: none;
+}
+
+.links-padrao a:hover,
+.links-body a:hover,
+.link-da-pagina a:hover {
+    text-decoration: underline;
+}
+
+#convite-modalidades{
+    color: rgb(2, 2, 75);
+    font-size: 22px;
+}
+
+#h1-Itens-indiretos{
+    color: black;
+    text-shadow: 2px 1px 1px black;
+}
+#titulo-link-biohasard{
+    background-color: white;
+}
+#explicaçao-biohasard{
+    text-align: center;
+}
+#print-jogo-corrida{
+    width: 800px;
+    display: block;
+}
+#imagens-interaçao1{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+#imagens-interaçao2 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;   
+    align-items: flex-end;   
+    gap: 10px;              
+}
+#imagens-interaçao2 p {
+    display: inline-block;   
+    text-align: right;
+     margin: 0;     
+}
+#imagem-ester-egg{
+    width: 600px;
+}
+#coisas-interativas{
+  background-color: rgb(247, 245, 245);
+}
+#iframe{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
